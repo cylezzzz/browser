@@ -1,0 +1,11 @@
+{
+  "name": "novabrowse",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "nlohmann-json",
+    "gumbo-parser",
+    "sqlite3",
+    "tinyxml2",
+    "catch2"
+  ]
+}

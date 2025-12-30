@@ -1,0 +1,26 @@
+{
+  "ollama": {
+    "host": "http://127.0.0.1:11434",
+    "model": "llama3.2"
+  },
+  "search": {
+    "provider": "ddg_html",
+    "safe": true
+  },
+  "fetch": {
+    "timeout_ms": 12000,
+    "retries": 2,
+    "rate_limit_per_sec": 1.5,
+    "cache_mb": 64
+  },
+  "rss": {
+    "feeds": []
+  },
+  "indexing": {
+    "local_folders": []
+  },
+  "privacy": {
+    "strip_tracking_params": true,
+    "respect_robots_txt": false
+  }
+}
